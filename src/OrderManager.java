@@ -6,8 +6,8 @@ public class OrderManager {
 
         products.sort(Comparator.comparingDouble(Product:: calculateTotalPrice)
                                 .thenComparing(Product:: getName)
-                                  .thenComparingInt(Product:: getStockQuantity));
-                                        return products;
+                                        .thenComparingInt(Product:: getStockQuantity));
+                                                return products;
 
     }
 
