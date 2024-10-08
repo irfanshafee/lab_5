@@ -16,6 +16,11 @@ public class Furniture implements  Product{
     public int getStockQuantity(){
         return stockQuantity;
     }
+
+    public double getUnitPrice() {
+        return 0;
+    }
+
     public double calculateTotalPrice(){
         return unitPrice + (unitPrice* TAX_RATE);
     }
